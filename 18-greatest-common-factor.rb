@@ -8,7 +8,7 @@ def greatest_common_factor(number1, number2)
 	factors1 = []
 	factors2 = []
 	(1..number1).each { |x| factors1 << x if number1 % x == 0}
-	(1..number1).each { |x| factors2 << x if number1 % x == 0}
+	(1..number2).each { |x| factors2 << x if number2 % x == 0}
 	(factors1 & factors2).max
 end
 
